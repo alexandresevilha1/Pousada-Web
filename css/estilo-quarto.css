@@ -1,0 +1,57 @@
+#quarto-banner {
+    width: 100vw;
+    height: 200px;
+    background-image: url(../assets/img-fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -50px;
+}
+
+.formatar h1{
+    font-size: 40px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.formatar p {
+    font: 30px;
+    line-height: 10px;
+}
+
+.formatar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.formatar div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.formatar img {
+    width: 25vw;
+    height: 300px;
+}
+
+.formatar h1, h2, p {
+    text-align: center;
+}
+
+.formatar ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    height: 10vh;
+    width: 50vw;
+}
+
+.formatar ul li {
+   margin-inline: 30px;
+}
+
